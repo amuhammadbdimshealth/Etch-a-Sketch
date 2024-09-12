@@ -45,8 +45,7 @@ const addChildDivs = (totalNumberOfCells = gridNumber, cellWidthPerc) => {
       newDiv.style.opacity = newOpacity;
 
     })    
-    newDiv.addEventListener('mouseleave', () => {
-      console.log("REVERT");   
+    newDiv.addEventListener('mouseleave', () => {      
       newDiv.classList.toggle('hovered');        
     })    
 
